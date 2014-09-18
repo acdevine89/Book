@@ -14,6 +14,7 @@ public class BookDemo {
         myBook.setAuthor("J.R.R. Tolkien");
         myBook.setNumberOfPages(426);
         myBook.showBookInfo();
+        Book.booksInLibrary();
         readingIsAwesome();
     }
 
