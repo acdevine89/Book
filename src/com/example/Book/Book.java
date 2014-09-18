@@ -30,4 +30,10 @@ public class Book {
         return numberOfPages;
     }
 
+    public void showBookInfo() {
+        System.out.println("My book is called '" + title + "'.");
+        System.out.println("My book was written by " + author + ".");
+        System.out.println("My book is " + numberOfPages + " pages long.");
+    }
+
 }
